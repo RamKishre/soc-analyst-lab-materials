@@ -8,7 +8,7 @@
  * Indicator Level: Hash Values
  * Pyramid Difficulty: Very Low
  * Indicator Color: Green
- * Why it is weak: Hash-based indicators are weak because attackers can easily change the hash of a malicious file by recompiling, 
+ * **Why it is weak:**Hash-based indicators are weak because attackers can easily change the hash of a malicious file by recompiling, 
    packing, or making minor modifications to the file. Even a small change in the file results in a completely different hash, 
    allowing the attacker to bypass hash-based detection.
  * Detection sources: Antivirus , Endpoint Detection and Response (EDR) , File integrity monitoring systems
