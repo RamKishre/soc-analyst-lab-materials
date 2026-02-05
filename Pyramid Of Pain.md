@@ -3,7 +3,7 @@
 > The Pyramid of Pain is a defensive security framework that explains how different types of indicators affect an attacker’s ability to continue an operation.
 > Lower-level indicators are easier for attackers to change while higher-level indicators cause significant disruption and force attackers to modify their tools, techniques and behavior.
 
-I, Pyramid of Pain – Level 1 :
+# Pyramid of Pain – Level 1 :
 
  * Indicator Level: Hash Values
  * Pyramid Difficulty: Very Low
@@ -18,12 +18,12 @@ I, Pyramid of Pain – Level 1 :
       Ans: Hash-based detection is signature-based and primarily useful for identifying known malware, not new or modified threats.
 
 
- II, Pyramid of Pain – Level 2 :
+ # Pyramid of Pain – Level 2 :
 
 * Indicator Level: IP Address
 * Pyramid Difficulty: Low
 * Indicator Color: Green
-* Why it is weak: IP-based indicators are weak because attackers can easily rotate IP addresses using fast-flux techniques, proxies, 
+** Why it is weak: **IP-based indicators are weak because attackers can easily rotate IP addresses using fast-flux techniques, proxies, 
   VPNs or botnets. Blocking a single IP address causes minimal disruption as attackers can quickly switch to new infrastructure,
   making IP-based detection short-lived and prone to false positives.
 * Detection Sources: SIEM, Firewall logs, IDS/IPS, Network monitoring tools
@@ -34,7 +34,7 @@ I, Pyramid of Pain – Level 1 :
           making IP-based detection easy to evade and short-lived.
 
 
-III, Pyramid of Pain – Level 3 :
+# Pyramid of Pain – Level 3 :
 
 * Indicator Level: Domain Name (DNS)
 * Pyramid Difficulty: Low–Medium
