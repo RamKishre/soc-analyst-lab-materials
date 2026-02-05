@@ -1,5 +1,7 @@
-# The Pyramid of Pain is a defensive security framework that explains how different types of indicators affect an attacker’s ability to continue an operation.
-# Lower-level indicators are easier for attackers to change while higher-level indicators cause significant disruption and force attackers to modify their tools, techniques and behavior.
+# Pyramid of Pain – Defensive Security Analysis
+
+> The Pyramid of Pain is a defensive security framework that explains how different types of indicators affect an attacker’s ability to continue an operation.
+> Lower-level indicators are easier for attackers to change while higher-level indicators cause significant disruption and force attackers to modify their tools, techniques and behavior.
 
 I, Pyramid of Pain – Level 1 :
 
