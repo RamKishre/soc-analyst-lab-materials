@@ -56,6 +56,28 @@
           or abuse URL shorteners and punycode attacks, making domain-based detection limited in long-term effectiveness.
 
 
+# Pyramid of Pain – Level 4 :
+
+* Indicator Level: Host / Network Artifacts
+* Pyramid Difficulty: Medium
+* Indicator Color: Yellow
+  
+* Why it is strong: At this level, detection focuses on attacker behavior and activity patterns rather than simple indicators.Host and network artifacts 
+  include items such as unusual process execution, command-line arguments, user-agent strings,registry changes, or abnormal network traffic patterns.
+  To evade detection at this level attackers must modify their tools, infrastructure usage or execution methods, which requires more time, effort and  
+  resources, causing noticeable disruption to their operations.
+
+* Detection Sources: SIEM, EDR, IDS/IPS, Firewall logs, DNS logs etc..
+* Validation Sources: ANY.RUN, Sandboxes, EDR telemetry, Threat intelligence feeds, Process analysis tools
+* Common Interview Question:
+  Q: Why are host and network artifacts considered stronger indicators than IPs or domains in the Pyramid of Pain?
+     Ans: Host and network artifacts are stronger indicators because they focus on attacker behavior and activity patterns, forcing attackers to modify tools
+     or execution methods, which requires more effort and causes greater disruption.
+
+
+
+
+
 
 
 
