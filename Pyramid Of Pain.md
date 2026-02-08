@@ -100,6 +100,28 @@ and often forces them to abandon or delay campaigns.
 
 
 
+# Pyramid of Pain – Level 6 :
+
+* Indicator Level: TTPs (Tactics, Techniques, and Procedures)
+* Pyramid Difficulty: Very High
+* Indicator Color: Red
+
+* Why it is strong:
+  TTP-based detection focuses on attacker behavior rather than specific indicators or tools. It identifies how an attacker operates across the entire attack lifecycle,
+  such as lateral movement techniques,persistence mechanisms, privilege escalation methods, and command-and-control behaviors. To evade detection at this level, 
+  attackers must fundamentally change how they conduct attacks, retrain operators, redesign playbooks, and adopt new operational strategies. This is extremely costly,
+  time-consuming, and often impractical, making TTP-based detection the most effective and resilient form of defense.
+
+* Detection Sources:
+SIEM (behavioral correlation rules), EDR (behavioral analytics), UEBA, IDS/IPS, Endpoint telemetry, Network traffic analysis
+
+* Validation Sources: MITRE ATT&CK framework, Threat intelligence reports, Incident response case studies, Threat hunting platforms
+
+* Common Interview Question:
+  Q: Why do TTP-based detections cause the most pain to attackers in the Pyramid of Pain?
+     Ans: TTP-based detections target attacker behavior and operational patterns, forcing adversaries to change how they conduct attacks 
+          rather than just modifying indicators or tools, which is costly and difficult to sustain.
+
 
 
 
