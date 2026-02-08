@@ -77,6 +77,29 @@
 
 
 
+# Pyramid of Pain – Level 5 :
+
+* Indicator Level: Tools
+* Pyramid Difficulty: High
+* Indicator Color: Orange
+
+* Why it is strong:
+At this level, defenders focus on detecting the tools used by attackers rather than simple indicators. Tools include malware builders, backdoors, C2 frameworks,
+malicious macro generators, password crackers, and custom executables or DLLs. If a SOC successfully detects tools, attackers must either heavily modify existing tools,
+develop new ones, or acquire alternative tooling, which requires significant time, expertise, and financial resources. This causes major disruption to attacker operations
+and often forces them to abandon or delay campaigns.
+
+* Detection Sources: Antivirus signatures, EDR detection rules, YARA rules, SIEM correlations, endpoint telemetry
+
+* Validation Sources: MalwareBazaar, MalShare, Sandboxes, Threat intelligence feeds, YARA repositories
+
+* Common Interview Question:
+  Q: Why does detecting attacker tools cause more pain than detecting IPs or domains?
+     Ans: Detecting attacker tools forces adversaries to rebuild, replace, or significantly modify their tooling, which requires time, 
+     resources, and expertise, making evasion costly and disruptive.
+
+
+
 
 
 
